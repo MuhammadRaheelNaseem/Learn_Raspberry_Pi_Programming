@@ -60,48 +60,48 @@ All over the world, people use the Raspberry Pi to learn programming skills, bui
 # Make prepare of Raspberry Pi
 ## Requirments:
 ### 1.) SD Card:
-![image.png](attachment:image.png)![download](https://user-images.githubusercontent.com/63813881/172046628-1bb6d8b6-7e98-453b-aef0-719beb053f6f.png)
+![download](https://user-images.githubusercontent.com/63813881/172046628-1bb6d8b6-7e98-453b-aef0-719beb053f6f.png)
 
-#### make sure class 10 symbol is here ![image-2.png](attachment:image-2.png)![download](https://user-images.githubusercontent.com/63813881/172046631-4f796e39-f1f5-4b2d-8dea-f51686254b35.png)
+#### make sure class 10 symbol is here ![download](https://user-images.githubusercontent.com/63813881/172046631-4f796e39-f1f5-4b2d-8dea-f51686254b35.png)
 
 ### Software Name: 
 #### 1.) Sdcard Formater
 go to this link and download it: https://sd-card-formatter.en.uptodown.com/windows
-![image-5.png](attachment:image-5.png)![download](https://user-images.githubusercontent.com/63813881/172046637-a09371da-968c-4375-b979-c753f03ffeda.png)
+![download](https://user-images.githubusercontent.com/63813881/172046637-a09371da-968c-4375-b979-c753f03ffeda.png)
 
-![image-6.png](attachment:image-6.png)![download](https://user-images.githubusercontent.com/63813881/172046643-48983346-29b1-4ea5-824c-4bfdfd76e380.png)
+![download](https://user-images.githubusercontent.com/63813881/172046643-48983346-29b1-4ea5-824c-4bfdfd76e380.png)
 
-![image-3.png](attachment:image-3.png)![download](https://user-images.githubusercontent.com/63813881/172046647-4f48e245-2a70-4836-9d89-ebb3e6eda889.png)
+![download](https://user-images.githubusercontent.com/63813881/172046647-4f48e245-2a70-4836-9d89-ebb3e6eda889.png)
 
-![image-7.png](attachment:image-7.png)![download](https://user-images.githubusercontent.com/63813881/172046653-e1033072-da0e-406e-8765-3c8538e77fe8.png)
+![download](https://user-images.githubusercontent.com/63813881/172046653-e1033072-da0e-406e-8765-3c8538e77fe8.png)
 
-![image-8.png](attachment:image-8.png)![download](https://user-images.githubusercontent.com/63813881/172046659-b0106083-e6a2-4739-9b37-44832a607041.png)
+![download](https://user-images.githubusercontent.com/63813881/172046659-b0106083-e6a2-4739-9b37-44832a607041.png)
 
-![image-9.png](attachment:image-9.png)![download](https://user-images.githubusercontent.com/63813881/172046690-3f20814a-e10c-4be6-82a1-956a7258364f.png)
+![download](https://user-images.githubusercontent.com/63813881/172046690-3f20814a-e10c-4be6-82a1-956a7258364f.png)
 
-![image-10.png](attachment:image-10.png)![download](https://user-images.githubusercontent.com/63813881/172046698-87d804a1-5470-4a35-88cd-640a9a53979d.png)
+![download](https://user-images.githubusercontent.com/63813881/172046698-87d804a1-5470-4a35-88cd-640a9a53979d.png)
 
-![image-12.png](attachment:image-12.png)![download](https://user-images.githubusercontent.com/63813881/172046710-fa70187f-db76-4a38-bdf8-1a51efec4b2a.png)
+![download](https://user-images.githubusercontent.com/63813881/172046710-fa70187f-db76-4a38-bdf8-1a51efec4b2a.png)
 
-![image-11.png](attachment:image-11.png)![download](https://user-images.githubusercontent.com/63813881/172046714-b3b9bc21-0df9-4c27-bdb4-0ce18a65e095.png)
+![download](https://user-images.githubusercontent.com/63813881/172046714-b3b9bc21-0df9-4c27-bdb4-0ce18a65e095.png)
 
 
 #### Formatting and Flashing SD Cards 
-![image.png](attachment:image.png)![download](https://user-images.githubusercontent.com/63813881/172046767-c16cf09a-0454-4f3b-b6e8-c57c5db3e55e.png)
+![download](https://user-images.githubusercontent.com/63813881/172046767-c16cf09a-0454-4f3b-b6e8-c57c5db3e55e.png)
 
-![image-2.png](attachment:image-2.png)![download](https://user-images.githubusercontent.com/63813881/172046787-dcc03ca8-27fc-4ae2-9cd0-e8fb49ba00f9.png)
+![download](https://user-images.githubusercontent.com/63813881/172046787-dcc03ca8-27fc-4ae2-9cd0-e8fb49ba00f9.png)
 
 #### 2.) Win32 Disk Imager
 Go to the link and download https://sourceforge.net/projects/win32diskimager/files/latest/download?source=navbar
-![image-3.png](attachment:image-3.png)![download](https://user-images.githubusercontent.com/63813881/172046871-75d0daa5-d004-4150-b5fa-690aa9e2385d.png)
+![download](https://user-images.githubusercontent.com/63813881/172046871-75d0daa5-d004-4150-b5fa-690aa9e2385d.png)
 
 Downloading will be started automatically
 After the installation it will look like this 
-![image-4.png](attachment:image-4.png)![download](https://user-images.githubusercontent.com/63813881/172046886-e7032f6e-7c65-4511-bc56-7e5770725d23.png)
+![download](https://user-images.githubusercontent.com/63813881/172046886-e7032f6e-7c65-4511-bc56-7e5770725d23.png)
 
-![image-5.png](attachment:image-5.png)![download](https://user-images.githubusercontent.com/63813881/172046889-a7ca4c60-3bfc-484c-b7a7-6d3cb546341a.png)
+![download](https://user-images.githubusercontent.com/63813881/172046889-a7ca4c60-3bfc-484c-b7a7-6d3cb546341a.png)
 
-![image-6.png](attachment:image-6.png)![download](https://user-images.githubusercontent.com/63813881/172046896-8a33b48e-118b-45c5-91ce-f6e364faee9c.png)
+![download](https://user-images.githubusercontent.com/63813881/172046896-8a33b48e-118b-45c5-91ce-f6e364faee9c.png)
 
 [download](https://user-images.githubusercontent.com/63813881/172046917-1b77de82-a812-4ae8-83bf-1d5f924f66c0.png)
 
@@ -109,17 +109,17 @@ After the installation it will look like this
 # If it doesn't work then download this software for OS burning
 go to this link and download https://www.balena.io/etcher/
 #### 3.) Balena Etcher
-![image-8.png](attachment:image-8.png)![download](https://user-images.githubusercontent.com/63813881/172046946-f1ed20a7-f5ed-4cb1-9093-bd03d82df9b5.png)
+![download](https://user-images.githubusercontent.com/63813881/172046946-f1ed20a7-f5ed-4cb1-9093-bd03d82df9b5.png)
 
-![image-9.png](attachment:image-9.png)![download](https://user-images.githubusercontent.com/63813881/172046960-3dc2c49a-a4af-4b95-a6db-54b07610b200.png)
+![download](https://user-images.githubusercontent.com/63813881/172046960-3dc2c49a-a4af-4b95-a6db-54b07610b200.png)
 
-![image-10.png](attachment:image-10.png)![download](https://user-images.githubusercontent.com/63813881/172046963-f28dd00c-76e5-45bd-b278-7ee35daf71fa.png)
+![download](https://user-images.githubusercontent.com/63813881/172046963-f28dd00c-76e5-45bd-b278-7ee35daf71fa.png)
 
 # Now Insert your Memory card in Raspberry pi:
-![image-12.png](attachment:image-12.png)![download](https://user-images.githubusercontent.com/63813881/172046969-8021fdad-d183-4199-a658-a952487e8c20.png)
+![download](https://user-images.githubusercontent.com/63813881/172046969-8021fdad-d183-4199-a658-a952487e8c20.png)
 
 # Connect to power cable:
-<img src="pi-plug-in.gif"> ![pi-plug-in](https://user-images.githubusercontent.com/63813881/172046980-91c2e963-a2dc-4754-8a8c-62ec5fea2ebe.gif)
+![pi-plug-in](https://user-images.githubusercontent.com/63813881/172046980-91c2e963-a2dc-4754-8a8c-62ec5fea2ebe.gif)
 
 # Now you can see how Raspberry Pi look like:
 
@@ -128,10 +128,10 @@ go to this link and download https://www.balena.io/etcher/
 
 # Now lets operates Raspberry Pi:
 ## Click Terminal:
-![image.png](attachment:image.png)![download](https://user-images.githubusercontent.com/63813881/172047027-982875de-5d2f-4a7d-8e3c-95940a648a79.png)
+![download](https://user-images.githubusercontent.com/63813881/172047027-982875de-5d2f-4a7d-8e3c-95940a648a79.png)
 
 ## Command 1:
-![image-2.png](attachment:image-2.png)![download](https://user-images.githubusercontent.com/63813881/172047040-d1deed3e-9b73-4b87-b1f9-69a8cd880300.png)
+![download](https://user-images.githubusercontent.com/63813881/172047040-d1deed3e-9b73-4b87-b1f9-69a8cd880300.png)
 
 ### What is Sudo?
 superuser do or substitute user do
@@ -147,7 +147,7 @@ sudo is a program for Unix-like computer operating systems that enables users to
 ### How to Connect Raspberry Pi to internet?
 <div><p class="alert-success">pi@raspberrypi:~ $ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf </p></div>
 
-![image-3.png](attachment:image-3.png)![download](https://user-images.githubusercontent.com/63813881/172047051-da01307f-5493-455a-96a4-8d325eb10eb7.png)
+![download](https://user-images.githubusercontent.com/63813881/172047051-da01307f-5493-455a-96a4-8d325eb10eb7.png)
 
 <div>
 <p class="alert-success">network={
@@ -162,29 +162,29 @@ sudo is a program for Unix-like computer operating systems that enables users to
 </p>
 </div>
 
-![image-5.png](attachment:image-5.png)![download](https://user-images.githubusercontent.com/63813881/172047056-145050f5-4241-416a-878d-1512a348e3e2.png)
+![download](https://user-images.githubusercontent.com/63813881/172047056-145050f5-4241-416a-878d-1512a348e3e2.png)
 
 
 <div><p class="alert-success">Then click Ctrl+x</p></div>
 
-![image-4.png](attachment:image-4.png)![download](https://user-images.githubusercontent.com/63813881/172047071-d160cab1-9e7c-47c9-85c9-2c14aec33fe0.png)
+![download](https://user-images.githubusercontent.com/63813881/172047071-d160cab1-9e7c-47c9-85c9-2c14aec33fe0.png)
 
 
 <div><p class="alert-success">Then click Y it will be saved! <br> Now you can see you have successfully connected into your wifi router</p></div>
 
-![image-6.png](attachment:image-6.png)![download](https://user-images.githubusercontent.com/63813881/172047074-12868110-96e7-4963-a228-a8f1d285e425.png)
+![download](https://user-images.githubusercontent.com/63813881/172047074-12868110-96e7-4963-a228-a8f1d285e425.png)
 
 
 # `Now Let's Configure Raspberry Pi with the help terminal`
 
-![image-7.png](attachment:image-7.png)![download](https://user-images.githubusercontent.com/63813881/172047086-dec4e2d4-56c7-42f4-8e00-f25338945d86.png)
+![download](https://user-images.githubusercontent.com/63813881/172047086-dec4e2d4-56c7-42f4-8e00-f25338945d86.png)
 
 
 <div><p class="alert-success">Then Enter</p></div>
 
 <div><p class="alert-success">Goto to 3rd option interface Options <br> Then Click</p></div>
 
-![image-9.png](attachment:image-9.png)![download](https://user-images.githubusercontent.com/63813881/172047094-19c16d7c-b631-4d14-9a30-0a81b57736ae.png)
+![download](https://user-images.githubusercontent.com/63813881/172047094-19c16d7c-b631-4d14-9a30-0a81b57736ae.png)
 
 
 <div><p class="alert-success">Now can see Interface option</p></div>
