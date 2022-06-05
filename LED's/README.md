@@ -146,14 +146,14 @@ resistors can be inserted. A typical breadboard is shown below:`
 
 # `Code: 1`
 <div>
-<p>from gpiozero import LED
+<pre>from gpiozero import LED
 
 led = LED(17)
 
 led.on()
     
 led.off()
-    </p>    
+    </pre>    
 </div>
 
 # `Code: 2`
