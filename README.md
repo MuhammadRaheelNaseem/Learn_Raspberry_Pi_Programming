@@ -189,34 +189,32 @@ sudo is a program for Unix-like computer operating systems that enables users to
 
 <div><p class="alert-success">Now can see Interface option</p></div>
 
-![image-10.png](attachment:image-10.png)![download](https://user-images.githubusercontent.com/63813881/172047148-5301f35e-720d-4535-92cf-b1f645f38588.png)
+![download](https://user-images.githubusercontent.com/63813881/172047148-5301f35e-720d-4535-92cf-b1f645f38588.png)
 
 
 <div><p class="alert-success">Then click </p></div>
-
-![image-11.png](attachment:image-11.png)![download](https://user-images.githubusercontent.com/63813881/172047163-018ddfab-1f02-41d2-a203-c101b5b9b6ac.png)
+![download](https://user-images.githubusercontent.com/63813881/172047163-018ddfab-1f02-41d2-a203-c101b5b9b6ac.png)
 
 
 <div><p class="alert-success">Use Arrow button left and right <br> press select button then Enter</p></div>
 <div><p class="alert-success">If it will ask you then select YES button then click 
 now your SSH will be enable!</p></div>
-
-![image-13.png](attachment:image-13.png)![download](https://user-images.githubusercontent.com/63813881/172047177-01d252a0-8d18-4804-b3e6-9124e814e5b4.png)
+![download](https://user-images.githubusercontent.com/63813881/172047177-01d252a0-8d18-4804-b3e6-9124e814e5b4.png)
 
 
 <p>Then press OK</p>
 
-![image-14.png](attachment:image-14.png)![download](https://user-images.githubusercontent.com/63813881/172047185-3ba3ad9e-45a5-4ec0-95a6-cbb4387d4185.png)
+![download](https://user-images.githubusercontent.com/63813881/172047185-3ba3ad9e-45a5-4ec0-95a6-cbb4387d4185.png)
 
 
 <div><p class="alert-danger">Then now enable all the thing by previous method</p></div>
 
-![image-7.png](attachment:image-8.png)![download](https://user-images.githubusercontent.com/63813881/172047189-cee10a1a-f98d-4a81-9798-34016aeddac7.png)
+![download](https://user-images.githubusercontent.com/63813881/172047189-cee10a1a-f98d-4a81-9798-34016aeddac7.png)
 
 
 <div><p class="alert-success">Use Arrow button left and right <br>select finish button then Enter</p></div>
 
-![image-15.png](attachment:image-15.png)![download](https://user-images.githubusercontent.com/63813881/172047193-d7033523-93ee-45a6-91dd-d346027ca3ba.png)
+![download](https://user-images.githubusercontent.com/63813881/172047193-d7033523-93ee-45a6-91dd-d346027ca3ba.png)
 
 
 <div><p class="alert-success">After the click! It's mean you have configure all interface options</p></div>
@@ -230,23 +228,23 @@ now your SSH will be enable!</p></div>
                               <br>2.) sudo apt-get upgrade</p></div>
 <div><p class="alert-success">type: sudo apt-get update</p></div>
                               
-![image-16.png](attachment:image-16.png)![download](https://user-images.githubusercontent.com/63813881/172047201-fdec51f4-266b-4420-97fe-3863398b34d7.png)
+![download](https://user-images.githubusercontent.com/63813881/172047201-fdec51f4-266b-4420-97fe-3863398b34d7.png)
 
 
 <div><p class="alert-success">after the update type: sudo apt-get upgrade</p></div>
 
-![image-17.png](attachment:image-17.png)![download](https://user-images.githubusercontent.com/63813881/172047211-89a42224-80e4-4604-8445-28617eabf612.png)
+![download](https://user-images.githubusercontent.com/63813881/172047211-89a42224-80e4-4604-8445-28617eabf612.png)
 
 
 <div><p class="alert-success">after some second it will ask you Do You Want Continue [Y/N]
     <br> type y</p></div>
 
-![image-18.png](attachment:image-18.png)![download](https://user-images.githubusercontent.com/63813881/172047219-d38d4652-6646-4341-b94b-c836e22512d6.png)
+![download](https://user-images.githubusercontent.com/63813881/172047219-d38d4652-6646-4341-b94b-c836e22512d6.png)
 
 
 <div><p class="alert-success">Then Enter</div>
 
-![image-19.png](attachment:image-19.png)![download](https://user-images.githubusercontent.com/63813881/172047229-d3992ca4-5071-4274-8f71-fc3fdd91a3d2.png)
+![download](https://user-images.githubusercontent.com/63813881/172047229-d3992ca4-5071-4274-8f71-fc3fdd91a3d2.png)
 
 
 <div><p class="alert-success">Your raspberry pi is update or upgrade successfully</div>
