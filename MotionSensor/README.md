@@ -1,9 +1,10 @@
 <div class="jumbotron alert-info"><h1>4.) PIR Motion Sensor (Passive Infrared Ray Sensor)</h1></div>
 
-![image](https://user-images.githubusercontent.com/63813881/172776786-54859834-0933-4d81-8343-3b80b1b05464.png)
-![image](https://user-images.githubusercontent.com/63813881/172776801-ba84b683-dfef-49cf-b8fe-439f1e278b69.png)
+![image](https://user-images.githubusercontent.com/63813881/173230581-f55cdf18-1454-443e-be13-a5be7d7903b3.png)
+![image](https://user-images.githubusercontent.com/63813881/173230594-3fbf962d-7447-403d-81b3-ff32cfdacd20.png)
+
 # `How PIR Motion Sensor Works:`
-![image](https://user-images.githubusercontent.com/63813881/172776832-6beb3825-e58d-41fb-b549-e7584e2db3d2.png)
+![image](https://user-images.githubusercontent.com/63813881/173230605-36808b74-8dbe-43f4-a2f0-cb38072bfa80.png)
 
 # `Code: 1`
 <pre> 
@@ -139,12 +140,12 @@ while True:
 
 # `Before working first we need API like (SMS, Calling, Whatsapp Message, `
 # `OTP, )`
-# `Goto this link` https://www.vonage.com/ ` click Try Now Button`
+# `Goto this link` https://dashboard.nexmo.com/sign-up ` click Try Now Button`
 
-![image](https://user-images.githubusercontent.com/63813881/172776901-e2d14d0c-1197-4665-bc9f-ee7c0d0533b5.png)
+<!-- ![image-6.png](attachment:image-6.png) -->
+![image](https://user-images.githubusercontent.com/63813881/173230619-c8057ba2-dcb4-4f5e-b34f-d0d1fac33e31.png)
 
-# `Then Sign up or login and select communication API` 
-
+# `After filling all requirement press signup, Then Login and select communication API`
 
 # `Code: 8`
 <pre>
@@ -152,33 +153,27 @@ while True:
 import vango  # Importing the nexmo library
 import RPi.GPIO as GPIO
 from time import sleep
-
 sensor_pin = 17		# Initialized GPIO 17 for motion sensor
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(sensor_pin, GPIO.IN)         # Declared GPIO 17 as input pin
-
 # Connecting to the vonago using API key and API secret
-client = vonage.Client(key=" Enter Your API Key ", secret=" Enter Your Secret Key ") 
+client = vonage.Client(key="f9xxxxxx", secret="5ahmSsxxxxxxxxxx") 
 sms = vonage.Sms(client)
-
 
 # Function to send message
 def send_sms():
     # Sending the message
-    responseData = sms.send_message(
-                                    {
+    responseData = sms.send_message({
                                         "from": "IOT",
-                                         "to": " Enter Receiver Contact Number ",
+                                         "to": "923172144424",
                                          "text": "Motion Detected!",
-                                    }
-                                    )
+                                    })
     # Checking whether we are successful or we got a error
     if responseData["messages"][0]["status"] == "0":
         print("Message sent successfully.")
     else:
         print(f"Message failed with error: {responseData['messages'][0]['error-text']}")
-
 while True:
     try:
         # Reading the motion sensor pin state
@@ -186,11 +181,85 @@ while True:
         if pin_state==0:                 #When output from motion sensor is LOW
             print("Body Not Detected",pin_state)
             sleep(0.1)
-            
         elif pin_state==1:               #When output from motion sensor is HIGH
             print("Body Detected",pin_state)
             send_sms()
             sleep(5)
     except KeyboardInterrupt:
         GPIO.cleaup()
+</pre>
+
+# `goto this link` https://www.pushbullet.com/ `signup and then login`
+![image](https://user-images.githubusercontent.com/63813881/173230659-30dc0321-e00d-43b6-bb6c-dcc0b3dc86b2.png)
+# `click setting button`
+![image](https://user-images.githubusercontent.com/63813881/173230666-bf09e22c-88e2-4cd4-bae3-2f1f76d1a8ff.png)
+# `then scroll down you can see "Change Access Token" click here`
+![image](https://user-images.githubusercontent.com/63813881/173230679-a9d7d438-149d-4d17-b150-364522596331.png)
+# `After the click "Change Access Token" API will be generate like this:`
+![image](https://user-images.githubusercontent.com/63813881/173230684-1e74c363-6215-426b-bde7-467831b3dcd0.png)
+# `Code: 9`
+<pre>
+import smtplib, ssl
+from gpiozero import MotionSensor
+
+pir = 2 # gpio pin number
+
+
+def mail():
+    print("Motion Detected!")
+    smtp_server = "smtp.gmail.com"
+    port = 587  # For starttls
+    sender_email = "Your Gmail | Other Email Address"
+    password = "Your Gmail Password"
+    context = ssl.create_default_context()
+    try:
+        server = smtplib.SMTP(smtp_server,port)
+        server.ehlo() # Can be comitted
+        server.starttls(context=context) # Secure the connection
+        server.ehlo() # Can be comitted
+        server.login(sender_email, password)
+        print("Successfully login") 
+        subject="mail from Raspberry Pi "
+        body="Motion Has Been Detected!"
+        message="Subject: {}\n\n{}".format(subject,body)
+        address=['mrahilnasim@gmail.com']
+        server.sendmail("johnmalton734",address,message)
+        print('Mail send successfully')
+    except Exception:
+        print("Login Failed")
+        print("Try to enter correct password")
+    finally:
+        print('Server Has Been Successfully Close')
+        server.quit() 
+
+def no_mail():
+    print("No Motion Detected!")
+        
+pir.when_motion = mail
+pir.when_no_motion = no_mail
+</pre>
+
+# `Code: 10`
+<pre>
+from pushbullet import Pushbullet
+import RPi.GPIO as GPIO
+from time import sleep
+
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(11, GPIO.IN) 
+pb = Pushbullet("o.t8XGOI0l8fEuYdqerxxxxxxxxxxxxxxx") # your access token
+print(pb.devices)
+
+while True:
+    i = GPIO.input(11)
+    if i == 0:
+        print("no motion")
+        sleep(1)
+    elif i == 1:
+        print("motion")
+        
+        dev = pb.get_device('INFINIX MOBILITY LIMITED Infinix X650B')
+        push = dev.push_note("Alert!!", "Someone is in your house")
+        sleep(1)
 </pre>
