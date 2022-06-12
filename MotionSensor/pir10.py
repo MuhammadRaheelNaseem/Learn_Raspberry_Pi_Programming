@@ -8,7 +8,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(sensor_pin, GPIO.IN)         # Declared GPIO 17 as input pin
 
 # Connecting to the vonago using API key and API secret
-client = vonage.Client(key="f9259294", secret="5ahmSs43om1tVNFb") 
+client = vonage.Client(key="Enter Your Key ID", secret="Enter Your Secret ID") 
 sms = vonage.Sms(client)
 
 
@@ -17,8 +17,8 @@ def send_sms():
     # Sending the message
     responseData = sms.send_message(
                                     {
-                                        "from": "IOT",
-                                         "to": "923172144424",
+                                        "from": "Enter Title",
+                                         "to": "Reciever Number",
                                          "text": "Motion Detected!",
                                     }
                                     )
