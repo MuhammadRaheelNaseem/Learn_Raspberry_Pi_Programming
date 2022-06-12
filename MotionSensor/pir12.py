@@ -5,7 +5,7 @@ from time import sleep
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(7, GPIO.IN) 
-pb = Pushbullet("o.t8XGOI0l8fEuYdqerwYs0vAHtQ2kCkMu") # your access token
+pb = Pushbullet("Enter Your Access Token") # your access token
 print(pb.devices)
 
 while True:
