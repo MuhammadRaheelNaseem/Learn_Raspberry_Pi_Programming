@@ -1,37 +1,3 @@
-psd = "Raheel42101@"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import smtplib, ssl
 from gpiozero import MotionSensor
 
@@ -44,7 +10,7 @@ def mail():
     smtp_server = "smtp.gmail.com"
     port = 587  # For starttls
     sender_email = "johnmalton734@gmail.com"
-    password = psd
+    password = "Enter Your Password"
     context = ssl.create_default_context()
     try:
         server = smtplib.SMTP(smtp_server,port)
