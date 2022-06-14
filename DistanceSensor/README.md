@@ -231,7 +231,7 @@ GPIO.setup(GPIO_TRIGGER,GPIO.OUT) #GPIO Mapping
 GPIO.setup(GPIO_ECHO,GPIO.IN)
 
 # Connecting to the vonago using API key and API secret
-client = vonage.Client(key="f9259294", secret="5ahmSs43om1tVNFb") 
+client = vonage.Client(key="f9xxxxxx", secret="5ahxxxxxxxxxxxxxxx") 
 sms = vonage.Sms(client)
 
 
@@ -241,8 +241,8 @@ def send_sms():
     responseData = sms.send_message(
                                     {
                                         "from": "IOT",
-                                         "to": "923172144424",
-                                         "text": "Motion Detected!",
+                                         "to": "Enter Reciever Number",
+                                         "text": "Enter Message",
                                     }
                                     )
     # Checking whether we are successful or we got a error
@@ -284,7 +284,7 @@ pulse_start=0
 pulse_end=0
 GPIO.setup(GPIO_TRIGGER,GPIO.OUT) #GPIO Mapping 
 GPIO.setup(GPIO_ECHO,GPIO.IN)
-pb = Pushbullet("o.t8XGOI0l8fEuYdqerwYs0vAHtQ2kCkMu") # your access token
+pb = Pushbullet("o.t8XGOI0l8fEuYdqerxxxxxxxxxxxxxxxx") # your access token
 print(pb.devices)
         
 while True:
@@ -297,7 +297,7 @@ while True:
 
         elif pin_state==1:               #When output from motion sensor is HIGH
             print("Body Detected",pin_state)
-            dev = pb.get_device('INFINIX MOBILITY LIMITED Infinix X650B')
+            dev = pb.get_device('INFINIX X650B')
             push = dev.push_note("Alert!!", "Body Detected In Our Range")
             sleep(1)
             
