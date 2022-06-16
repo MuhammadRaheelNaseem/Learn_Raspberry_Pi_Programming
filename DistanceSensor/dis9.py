@@ -1,17 +1,8 @@
-import vango  # Importing the nexmo library
+import vonage  # Importing the nexmo library
 import RPi.GPIO as GPIO
-from time import sleep
+import time
 
-GPIO.setmode(GPIO.BOARD)#Numbering the GPIO pin
-GPIO.setwarnings(False)
-GPIO_TRIGGER = 24
-GPIO_ECHO = 23
-pulse_start=0
-pulse_end=0
-GPIO.setup(GPIO_TRIGGER,GPIO.OUT) #GPIO Mapping 
-GPIO.setup(GPIO_ECHO,GPIO.IN)
-
-# Connecting to the vonago using API key and API secret
+#Connecting to the vonago using API key and API secret
 client = vonage.Client(key="f9259294", secret="5ahmSs43om1tVNFb") 
 sms = vonage.Sms(client)
 
@@ -23,7 +14,7 @@ def send_sms():
                                     {
                                         "from": "IOT",
                                          "to": "923172144424",
-                                         "text": "Motion Detected!",
+                                         "text": "Distance Measure",
                                     }
                                     )
     # Checking whether we are successful or we got a error
@@ -32,17 +23,31 @@ def send_sms():
     else:
         print(f"Message failed with error: {responseData['messages'][0]['error-text']}")
 
-while True:
-    try:
-        # Reading the motion sensor pin state
-        pin_state = GPIO.input(sensor_pin)
-        if pin_state==0:                 #When output from motion sensor is LOW
-            print("Body Not Detected",pin_state)
-            sleep(0.1)
 
-        elif pin_state==1:               #When output from motion sensor is HIGH
-            print("Body Detected",pin_state)
-            send_sms()
-            sleep(5)
-    except KeyboardInterrupt:
-        GPIO.cleaup()
+def DistanceMeasure():
+    try:
+        GPIO.setmode(GPIO.BCM)
+        PIN_TRIGGER = 26
+        PIN_ECHO = 20
+        GPIO.setup(PIN_TRIGGER, GPIO.OUT)
+        GPIO.setup(PIN_ECHO, GPIO.IN)
+        GPIO.output(PIN_TRIGGER, GPIO.LOW)
+        print("Waiting for sensor to settle")
+        time.sleep(2)
+        print("Calculating distance")
+        GPIO.output(PIN_TRIGGER, GPIO.HIGH)
+        time.sleep(0.00001)
+        GPIO.output(PIN_TRIGGER, GPIO.LOW)
+        while GPIO.input(PIN_ECHO)==0:
+            pulse_start_time = time.time()
+        while GPIO.input(PIN_ECHO)==1:
+            pulse_end_time = time.time()
+        pulse_duration = pulse_end_time - pulse_start_time
+        distance = round(pulse_duration * 17150, 2)
+        print("Distance:",distance,"cm")
+        send_sms()
+    
+    finally:
+        GPIO.cleanup()
+        
+DistanceMeasure()

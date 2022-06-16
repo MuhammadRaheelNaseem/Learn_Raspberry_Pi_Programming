@@ -1,6 +1,6 @@
 from gpiozero import DistanceSensor
 
-dis = DistanceSensor(echo=17, trigger=4)
+dis = DistanceSensor(echo=20, trigger=26)
 
 while True:
     print("%.3f"%dis.distance)

@@ -1,32 +1,38 @@
-pip install pushbullet.py==0.9.1
+#pip install pushbullet.py==0.9.1
 from pushbullet import Pushbullet
 import RPi.GPIO as GPIO
-from time import sleep
+import time
 
-GPIO.setmode(GPIO.BOARD)#Numbering the GPIO pin
-GPIO.setwarnings(False)
-GPIO_TRIGGER = 24
-GPIO_ECHO = 23
-pulse_start=0
-pulse_end=0
-GPIO.setup(GPIO_TRIGGER,GPIO.OUT) #GPIO Mapping 
-GPIO.setup(GPIO_ECHO,GPIO.IN)
 pb = Pushbullet("o.t8XGOI0l8fEuYdqerwYs0vAHtQ2kCkMu") # your access token
 print(pb.devices)
 
-while True:
+def DistanceMeasure():
+    global pb
     try:
-        # Reading the motion sensor pin state
-        pin_state = GPIO.input(sensor_pin)
-        if pin_state==0:                 #When output from motion sensor is LOW
-            print("Body Not Detected",pin_state)
-            sleep(0.5)
-
-        elif pin_state==1:               #When output from motion sensor is HIGH
-            print("Body Detected",pin_state)
-            dev = pb.get_device('INFINIX MOBILITY LIMITED Infinix X650B')
-            push = dev.push_note("Alert!!", "Body Detected In Our Range")
-            sleep(1)
-
-    except KeyboardInterrupt:
-        GPIO.cleaup()
+        GPIO.setmode(GPIO.BCM)
+        PIN_TRIGGER = 26
+        PIN_ECHO = 20
+        GPIO.setup(PIN_TRIGGER, GPIO.OUT)
+        GPIO.setup(PIN_ECHO, GPIO.IN)
+        GPIO.output(PIN_TRIGGER, GPIO.LOW)
+        print("Waiting for sensor to settle")
+        time.sleep(2)
+        print("Calculating distance")
+        GPIO.output(PIN_TRIGGER, GPIO.HIGH)
+        time.sleep(0.00001)
+        GPIO.output(PIN_TRIGGER, GPIO.LOW)
+        while GPIO.input(PIN_ECHO)==0:
+            pulse_start = time.time()
+        while GPIO.input(PIN_ECHO)==1:
+            pulse_end = time.time()
+        
+        pulse_duration = pulse_end - pulse_start
+        distance = round(pulse_duration * 17150, 2)
+        print("Distance:",distance,"cm")
+        #dev = pb.get_device('INFINIX MOBILITY LIMITED Infinix X650B')
+        push = pb.push_note("Alert!!", distance ,"cm")
+    
+    finally:
+        GPIO.cleanup()
+        
+DistanceMeasure()

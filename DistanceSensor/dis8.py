@@ -1,18 +1,5 @@
 import RPi.GPIO as GPIO 
 import time
-
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-mail= MIMEMultipart()
-server = smtplib.SMTP('smtp.gmail.com',587) #SMTP Server and Port Number
-server.starttls() #Server Starting
-sender = ' ' # Type your own email ID
-senpass = ' ' # Enter the password associated with the email
-receiver = 'mrahilnasim@gmail.com' # Receiver's Email ID
-server.login(sender,senpass) #Authentication Point
-
-
 GPIO.setmode(GPIO.BOARD)#Numbering the GPIO pin
 GPIO.setwarnings(False)
 GPIO_TRIGGER = 24
@@ -45,15 +32,8 @@ while True:
     # multiply with the sonic speed (34300 cm/s)
     # and divide by 2, because reflected or echo signal
     distance = (TimeElapsed * 34300) / 2
-    print(distance)
+    #print(distance)
     if distance < 50 : #Only sends mail when sensor reads object from less than 50 cm
-        mail['From']='Home Automation Systems'
-        mail['To'] = receiver
-        mail['Subject']='Sensor Data – Alert'
-        body='Object detected'
-        mail.attach(MIMEText(body,'plain')) 
-        msg=mail.as_string()
-        server.sendmail(sender,receiver,msg)
-        print('Mail Sent')
+        print("Distance: ",distance," cm")
     time.sleep(5)   #The sensor checks the object in every 5 seconds
 GPIO.cleanup()
