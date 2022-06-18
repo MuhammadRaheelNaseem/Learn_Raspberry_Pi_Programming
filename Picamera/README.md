@@ -4,7 +4,7 @@
 
 # `How to insert camera in raspberry pi:`
 
-![camera](https://user-images.githubusercontent.com/63813881/174445262-0118c9d8-d6b5-4310-af19-00a8ede27756.gif)
+![camera](https://user-images.githubusercontent.com/63813881/174445376-fd634ff8-5430-4284-bf93-9972fb8991f0.gif)
 
 
 # `First enable camera like this:`
