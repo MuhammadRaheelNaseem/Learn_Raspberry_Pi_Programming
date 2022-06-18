@@ -49,7 +49,7 @@ finally:
 </pre>
 
 # `Code: 3`
-</pre>
+<pre>
 import RPi.GPIO as GPIO
 import time
 
@@ -58,7 +58,6 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(14,GPIO.IN) #GPIO 14 -> IR sensor as input
 
 while True:
-
     if(GPIO.input(14)==True): #object is far away
         print("No object")
     if(GPIO.input(14)==False): #object is near
