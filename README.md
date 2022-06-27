@@ -263,14 +263,14 @@ now your SSH will be enable!</p></div>
 
 <div><p class="alert-success">pi@raspberrypi:~ $ ls </p></div>
 
-![image-20.png](attachment:image-20.png)![download](https://user-images.githubusercontent.com/63813881/172047249-e2aa58a5-f2ff-4d64-88c6-041063fc5f25.png)
+![download](https://user-images.githubusercontent.com/63813881/172047249-e2aa58a5-f2ff-4d64-88c6-041063fc5f25.png)
 
 
 ## Command 6 Nmap Scan the Local Network
 <div><p class="alert-success">pi@raspberrypi:~ $ sudo apt-get install nmap
 <br> then click y it will start installation</p></div>
 
-![image-21.png](attachment:image-21.png)![download](https://user-images.githubusercontent.com/63813881/172047253-e9962c13-f9dd-44c7-8801-bfe6dd3339a4.png)
+![download](https://user-images.githubusercontent.com/63813881/172047253-e9962c13-f9dd-44c7-8801-bfe6dd3339a4.png)
 
 
 <div><p class="alert-success">pi@raspberrypi:~ $ nmap -sn 192.168.1.0/24</p></div>
@@ -279,7 +279,7 @@ now your SSH will be enable!</p></div>
 
 <div><p class="alert-success">pi@raspberrypi:~ $ htop</p></div>
 
-![image-22.png](attachment:image-22.png)![download](https://user-images.githubusercontent.com/63813881/172047260-3623f7cc-9b64-4395-8e9e-bb80587a5485.png)
+![download](https://user-images.githubusercontent.com/63813881/172047260-3623f7cc-9b64-4395-8e9e-bb80587a5485.png)
 
 
 ## Command 8 Find the IP Address of Raspberry Pi
@@ -290,7 +290,7 @@ now your SSH will be enable!</p></div>
 
 <div><p class="alert-success">pi@raspberrypi:~ $ wget URL</p></div>
 
-![image-23.png](attachment:image-23.png)![download](https://user-images.githubusercontent.com/63813881/172047269-035a8009-e912-4c77-898c-c7a48d7109e2.png)
+![download](https://user-images.githubusercontent.com/63813881/172047269-035a8009-e912-4c77-898c-c7a48d7109e2.png)
 
 
 ## Command 10 Check Raspberry OS Version
@@ -331,18 +331,18 @@ now your SSH will be enable!</p></div>
 <br>
 <div><p class="alert-success">Click the Raspberry icon</p></div>
 
-![image.png](attachment:image.png)![download](https://user-images.githubusercontent.com/63813881/172047294-0e2bc691-1dd9-40a6-9aa8-64e670a33629.png)
+![download](https://user-images.githubusercontent.com/63813881/172047294-0e2bc691-1dd9-40a6-9aa8-64e670a33629.png)
 
 
 <br>
 <div><p class="alert-success">You can control most of your Raspberry Pi’s settings, such as the password, through the Raspberry Pi Configuration application found in Preferences on the menu.</p></div>
 
-![image-2.png](attachment:image-2.png)![download](https://user-images.githubusercontent.com/63813881/172047308-9b1aaf69-8d37-47db-ba2e-3919d8726ce2.png)
+![download](https://user-images.githubusercontent.com/63813881/172047308-9b1aaf69-8d37-47db-ba2e-3919d8726ce2.png)
 
 
 <div class="alert-success"><h1>System</h1><p>In this tab you can change basic system settings of your Raspberry Pi.</p></div>
 
-![image-3.png](attachment:image-3.png)![download](https://user-images.githubusercontent.com/63813881/172047315-93cddf92-c70d-485e-8582-75eddc828961.png)
+![download](https://user-images.githubusercontent.com/63813881/172047315-93cddf92-c70d-485e-8582-75eddc828961.png)
 
 
 <div class="alert-success"><ul>
@@ -361,7 +361,7 @@ now your SSH will be enable!</p></div>
 
 </div>
 
-![image-4.png](attachment:image-4.png)![download](https://user-images.githubusercontent.com/63813881/172047322-cbcbcc3e-3c15-4d75-b18f-09d50daf8c20.png)
+![download](https://user-images.githubusercontent.com/63813881/172047322-cbcbcc3e-3c15-4d75-b18f-09d50daf8c20.png)
 
 
 <div class="alert-success"><p class='alert-danger'>Make Sure You desire things!</p><ul>
@@ -391,7 +391,7 @@ now your SSH will be enable!</p></div>
 # `Download and Installation Putty`
 ### Goto this link and download 64bit https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
-![image.png](attachment:image.png)![download](https://user-images.githubusercontent.com/63813881/172047333-dcf7031d-db9c-4db9-9c9b-e4676e6664ff.png)
+![download](https://user-images.githubusercontent.com/63813881/172047333-dcf7031d-db9c-4db9-9c9b-e4676e6664ff.png)
 
 
 ## `Step 2: Configuration and Installation`
@@ -399,33 +399,38 @@ now your SSH will be enable!</p></div>
 
 `2. Click Next on the welcome screen to continue with the installation.`
 
-![image-2.png](attachment:image-2.png)![download](https://user-images.githubusercontent.com/63813881/172047336-a5634d4a-3fa8-4876-b552-f72494a253c8.png)
+![download](https://user-images.githubusercontent.com/63813881/172047336-a5634d4a-3fa8-4876-b552-f72494a253c8.png)
 
 
 `3. Click Next if you don't need to modify the installation path. Click Change... to specify another path.`
-![image-3.png](attachment:image-3.png)![download](https://user-images.githubusercontent.com/63813881/172047338-4627ff26-510d-40f8-a9f4-638020ff0563.png)
+
+![download](https://user-images.githubusercontent.com/63813881/172047338-4627ff26-510d-40f8-a9f4-638020ff0563.png)
 
 
 `4. Select which product features you want to install. Click Install.`
-![image-4.png](attachment:image-4.png)![download](https://user-images.githubusercontent.com/63813881/172047346-63676f9c-d29e-4bdc-a15c-b715276eef89.png)
+
+![download](https://user-images.githubusercontent.com/63813881/172047346-63676f9c-d29e-4bdc-a15c-b715276eef89.png)
 
  
 `5. Upon completing the installation, the program shows a 'Setup complete' screen. Check/uncheck the View README file option if you want to see the developer's notes. Click Finish to exit the installer.`
 
 
 `A successful PuTTY installation window.`
-![image-5.png](attachment:image-5.png)![download](https://user-images.githubusercontent.com/63813881/172047358-5caea578-bc8a-4128-a829-a3472b92713a.png)
+
+![download](https://user-images.githubusercontent.com/63813881/172047358-5caea578-bc8a-4128-a829-a3472b92713a.png)
 
 
 ## `Step 3: Run Putty`
 `Run PuTTY after the installation to make sure it functions properly.
 Double-click the icon on Desktop or search 'putty' in the search bar and press Enter.`
-![image-6.png](attachment:image-6.png)![download](https://user-images.githubusercontent.com/63813881/172047361-bb98ae65-1fc8-43da-9c82-f480e5537e89.png)
+
+![download](https://user-images.githubusercontent.com/63813881/172047361-bb98ae65-1fc8-43da-9c82-f480e5537e89.png)
 
 
 `How to run PuTTY after installation.
 If there were no issues during installation, the PuTTY configuration window opens:`
-![image-7.png](attachment:image-7.png)![download](https://user-images.githubusercontent.com/63813881/172047372-123a27d5-28be-465e-8c41-3c5be574a6d5.png)
+
+![download](https://user-images.githubusercontent.com/63813881/172047372-123a27d5-28be-465e-8c41-3c5be574a6d5.png)
 
 
 `The PuTTY configuration window allows you to specify how you want to connect.
@@ -440,62 +445,63 @@ The configuration options allow you to set up the connection type, port, and con
 <div class='alert-success'><p>pi@raspberrypi:~ $ sudo ifconfig</p></div>
 
 `it will show the network adapters and the assigned ip-address.`
-![image-8.png](attachment:image-8.png)![download](https://user-images.githubusercontent.com/63813881/172047830-19701a4e-aebd-4011-9180-ef616d94fb9d.png)
+
+![download](https://user-images.githubusercontent.com/63813881/172047830-19701a4e-aebd-4011-9180-ef616d94fb9d.png)
 
 
 `3.) The Putty window opens`
 
-![image-9.png](attachment:image-9.png)![download](https://user-images.githubusercontent.com/63813881/172047835-8353e809-24e2-49ac-b988-bf6b632e88db.png)
+![download](https://user-images.githubusercontent.com/63813881/172047835-8353e809-24e2-49ac-b988-bf6b632e88db.png)
 
 
 ## `If you haven't find IP goto this link and download Advance IPscanner`
 https://www.advanced-ip-scanner.com/download/
 ## `Downloading will be start automatically `
 
-![image-10.png](attachment:image-10.png)![download](https://user-images.githubusercontent.com/63813881/172047845-8e03029c-94fd-4e52-a38d-03593b8e1a6f.png)
+![download](https://user-images.githubusercontent.com/63813881/172047845-8e03029c-94fd-4e52-a38d-03593b8e1a6f.png)
 
 
 ## 1: After opening the downloaded file, the setup file will open with “Select the Language” tab.
 
-![image-11.png](attachment:image-11.png)![download](https://user-images.githubusercontent.com/63813881/172047853-cc33d34c-a41b-4537-9d4d-65fb034a93c8.png)
+![download](https://user-images.githubusercontent.com/63813881/172047853-cc33d34c-a41b-4537-9d4d-65fb034a93c8.png)
 
 
 ## 2: After selecting the language, It will prompt you to the installation page. You can either choose to install or you can run a portable version. We have chosen the installation here. Select “Install” radio button and click “Next“.
 
-![image-12.png](attachment:image-12.png)![download](https://user-images.githubusercontent.com/63813881/172047868-6b3f68a7-c1d8-464d-9e4d-1ad8f6adb45d.png)
+![download](https://user-images.githubusercontent.com/63813881/172047868-6b3f68a7-c1d8-464d-9e4d-1ad8f6adb45d.png)
 
 
 ## 3: You will get the “End User License Agreement“. Read and choose “I Accept the Agreement” and click “Install“.
 
-![image-13.png](attachment:image-13.png)![download](https://user-images.githubusercontent.com/63813881/172047872-473c44d9-f2a2-45d2-8944-f4be50fa2a0a.png)
+![download](https://user-images.githubusercontent.com/63813881/172047872-473c44d9-f2a2-45d2-8944-f4be50fa2a0a.png)
 
 
 ## 4: Installation will start.
 
-![image-14.png](attachment:image-14.png)![download](https://user-images.githubusercontent.com/63813881/172047883-ed393443-e468-4d64-b580-627f7f09c2c3.png)
+![download](https://user-images.githubusercontent.com/63813881/172047883-ed393443-e468-4d64-b580-627f7f09c2c3.png)
 
 
 ## 5: Once installed, you can start running the application.
 
-![image-15.png](attachment:image-15.png)![image](https://user-images.githubusercontent.com/63813881/172047891-7b9fb834-1456-4fb1-aff7-60ec73870aec.png)
+![image](https://user-images.githubusercontent.com/63813881/172047891-7b9fb834-1456-4fb1-aff7-60ec73870aec.png)
 
 
 ## 6: This is the homepage of this application. Click “Scan” to scan all the connected devices to this network.
 
-![image-16.png](attachment:image-16.png)![image](https://user-images.githubusercontent.com/63813881/172047897-f984d19b-e7d1-4464-9076-bbc7e97e842e.png)
+![image](https://user-images.githubusercontent.com/63813881/172047897-f984d19b-e7d1-4464-9076-bbc7e97e842e.png)
 
 
 ## 7: The list will appear like this. You can right-click on any device and try controlling it with the help of Radmin or RDP.
 
 ## Connect Raspberry Pi with Laptop/PC and Open Advanced IP scanner
 
-![image-17.png](attachment:image-17.png)![image](https://user-images.githubusercontent.com/63813881/172047904-ba7c571a-5ca7-4bdd-92c8-94e45a2f4827.png)
+![image](https://user-images.githubusercontent.com/63813881/172047904-ba7c571a-5ca7-4bdd-92c8-94e45a2f4827.png)
 
 
 ## Open Putty and enter the IP address
 ## Now, Open Putty and enter the IP address and click on open.
 
-![image-18.png](attachment:image-18.png)![image](https://user-images.githubusercontent.com/63813881/172047906-0034c747-71cb-44fb-87ca-09fc3d21320a.png)
+![image](https://user-images.githubusercontent.com/63813881/172047906-0034c747-71cb-44fb-87ca-09fc3d21320a.png)
 
 
 ## `Click “Open” and you’re ready to log on.`
@@ -503,23 +509,23 @@ https://www.advanced-ip-scanner.com/download/
 ## `Standard password = raspberry` ----------->Defualt Password is raspberry
 ## Please note that the password will not be visible when you type, just type and enter.
 
-![image-19.png](attachment:image-19.png)![image](https://user-images.githubusercontent.com/63813881/172047916-92132e60-8b62-4a8b-8f4a-fcbbc5d53267.png)
+![image](https://user-images.githubusercontent.com/63813881/172047916-92132e60-8b62-4a8b-8f4a-fcbbc5d53267.png)
 
-![image-20.png](attachment:image-20.png)![image](https://user-images.githubusercontent.com/63813881/172047919-fd571333-d4eb-4e79-a18b-5d6944c0ef5f.png)
+![image](https://user-images.githubusercontent.com/63813881/172047919-fd571333-d4eb-4e79-a18b-5d6944c0ef5f.png)
 
 
 # `You can also view GUI of Raspberry Pi with the help of VNC Viewer`
 
 ## `Connect from Windows client: Visit the RealVNC` https://www.realvnc.com/en/connect/download/viewer/ `site and download the client for your operating system and install. Once it’s done, fire up the VNC viewer and enter the Raspberry PI IP address and hit enter. You are going to see a warning message like this.`
 
-![image-22.png](attachment:image-22.png)![image](https://user-images.githubusercontent.com/63813881/172047929-e44d7961-b1fb-4804-9a33-b5d7b091aa36.png)
+![image](https://user-images.githubusercontent.com/63813881/172047929-e44d7961-b1fb-4804-9a33-b5d7b091aa36.png)
 
-![image-23.png](attachment:image-23.png)![image](https://user-images.githubusercontent.com/63813881/172047931-be2be41f-707e-4a1a-b4ad-ceaa66277e1d.png)
+![image](https://user-images.githubusercontent.com/63813881/172047931-be2be41f-707e-4a1a-b4ad-ceaa66277e1d.png)
 
-![image-21.png](attachment:image-21.png)![image](https://user-images.githubusercontent.com/63813881/172047938-64c9fc20-3439-4127-b28f-11dffaa6fec9.png)
+![image](https://user-images.githubusercontent.com/63813881/172047938-64c9fc20-3439-4127-b28f-11dffaa6fec9.png)
 
 
 ## `After the continue just enter the user or password then click connect now you can see RaspberryPi Screen`
 
-![image-24.png](attachment:image-24.png)![image](https://user-images.githubusercontent.com/63813881/172047944-6c793d9e-18e2-401f-9576-ab996a25ae21.png)
+![image](https://user-images.githubusercontent.com/63813881/172047944-6c793d9e-18e2-401f-9576-ab996a25ae21.png)
 
