@@ -212,16 +212,38 @@ Steps to Follow to install pre-defined Images
 #### 9. Now it is verifying
 ![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/08795b0e-6b32-485e-b1af-dc49c6486600)
 
+#### Manual Installation with Win32 Disk Imager
+Go to the link and download https://sourceforge.net/projects/win32diskimager/files/latest/download?source=navbar
+![download](https://user-images.githubusercontent.com/63813881/172046871-75d0daa5-d004-4150-b5fa-690aa9e2385d.png)
 
-# Now Insert your Memory card in Raspberry pi:
+Downloading will be started automatically
+After the installation it will look like this 
+![download](https://user-images.githubusercontent.com/63813881/172046886-e7032f6e-7c65-4511-bc56-7e5770725d23.png)
+
+![download](https://user-images.githubusercontent.com/63813881/172046889-a7ca4c60-3bfc-484c-b7a7-6d3cb546341a.png)
+
+![download](https://user-images.githubusercontent.com/63813881/172046896-8a33b48e-118b-45c5-91ce-f6e364faee9c.png)
+
+[download](https://user-images.githubusercontent.com/63813881/172046917-1b77de82-a812-4ae8-83bf-1d5f924f66c0.png)
+
+
+# If win32 disk imager doesn't work then download this software for OS writting
+go to this link and download https://www.balena.io/etcher/
+#### 3.) Balena Etcher
+![download](https://user-images.githubusercontent.com/63813881/172046946-f1ed20a7-f5ed-4cb1-9093-bd03d82df9b5.png)
+
+![download](https://user-images.githubusercontent.com/63813881/172046960-3dc2c49a-a4af-4b95-a6db-54b07610b200.png)
+
+![download](https://user-images.githubusercontent.com/63813881/172046963-f28dd00c-76e5-45bd-b278-7ee35daf71fa.png)
+
+
+# Now Insert your Memory card in Raspberry Pi:
 ![download](https://user-images.githubusercontent.com/63813881/172046969-8021fdad-d183-4199-a658-a952487e8c20.png)
 
 # Connect to power cable:
 ![pi-plug-in](https://user-images.githubusercontent.com/63813881/172046980-91c2e963-a2dc-4754-8a8c-62ec5fea2ebe.gif)
 
-# Now you can see how Raspberry Pi look like:
-
-
+# Now you can see what Raspberry Pi looks like:
 
 
 # Now lets operates Raspberry Pi:
