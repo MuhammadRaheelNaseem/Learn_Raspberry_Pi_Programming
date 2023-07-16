@@ -10,12 +10,12 @@
 ![download](https://user-images.githubusercontent.com/63813881/172046506-788b1284-2096-49a3-ac72-c5ca85a5b5ea.png)
 
 # What is Raspberry Pi
-The Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer monitor or TV, and uses a standard keyboard and mouse.
+The Raspberry Pi is a low-cost, credit-card-sized computer that plugs into a computer monitor or TV, and uses a standard keyboard and mouse.
 
 Raspberry Pi is a series of small single-board computers developed in the United Kingdom by the Raspberry Pi Foundation in association with Broadcom. The Raspberry Pi project originally leaned towards the promotion of teaching basic computer science in schools and in developing countries.
 
 # What is a Raspberry Pi used for?
-All over the world, people use the Raspberry Pi to learn programming skills, build hardware projects, do home automation, implement Kubernetes clusters and Edge computing, and even use them in industrial applications.
+All over the world, people use Raspberry Pi to learn programming skills, build hardware projects, do home automation, implement Kubernetes clusters and Edge computing, and even use them in industrial applications.
 
 # Difference Between Raspberry pi and Arduino:
 
@@ -91,29 +91,127 @@ go to this link and download it: https://sd-card-formatter.en.uptodown.com/windo
 
 ![download](https://user-images.githubusercontent.com/63813881/172046787-dcc03ca8-27fc-4ae2-9cd0-e8fb49ba00f9.png)
 
-#### 2.) Win32 Disk Imager
-Go to the link and download https://sourceforge.net/projects/win32diskimager/files/latest/download?source=navbar
-![download](https://user-images.githubusercontent.com/63813881/172046871-75d0daa5-d004-4150-b5fa-690aa9e2385d.png)
+# Downloading and Installation of Raspberry pi Imager Through the Internet
+Raspberry Pi Imager is free to install from the official Raspberry Pi website. It is under the download page section of the website. It's available for MacOS, Windows, Linux, and Ubuntu systems.
 
-Downloading will be started automatically
-After the installation it will look like this 
-![download](https://user-images.githubusercontent.com/63813881/172046886-e7032f6e-7c65-4511-bc56-7e5770725d23.png)
+Visit the Raspberry Pi Software section (https://www.raspberrypi.com/software/)
 
-![download](https://user-images.githubusercontent.com/63813881/172046889-a7ca4c60-3bfc-484c-b7a7-6d3cb546341a.png)
-
-![download](https://user-images.githubusercontent.com/63813881/172046896-8a33b48e-118b-45c5-91ce-f6e364faee9c.png)
-
-[download](https://user-images.githubusercontent.com/63813881/172046917-1b77de82-a812-4ae8-83bf-1d5f924f66c0.png)
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/d40f1346-5d33-4b33-ac1c-14c413e0b6d9)
 
 
-# If it doesn't work then download this software for OS burning
-go to this link and download https://www.balena.io/etcher/
-#### 3.) Balena Etcher
-![download](https://user-images.githubusercontent.com/63813881/172046946-f1ed20a7-f5ed-4cb1-9093-bd03d82df9b5.png)
+### 1. Download the latest version of the Raspberry Pi Imager installer for your Operating System.
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/bc0d2300-e776-48dc-877e-6378d54df34a)
 
-![download](https://user-images.githubusercontent.com/63813881/172046960-3dc2c49a-a4af-4b95-a6db-54b07610b200.png)
 
-![download](https://user-images.githubusercontent.com/63813881/172046963-f28dd00c-76e5-45bd-b278-7ee35daf71fa.png)
+### 2. Run the installer and follow the prompts to complete the setup.
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/f73beb90-737f-4c42-9c49-8ade87e44a9e)
+
+
+### 3. Once the raspberry pi file installs successfully now open with from Windows start menu.
+
+Steps to Follow to install pre-defined Images
+#### 1. Launch Raspberry Pi Imager.
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/ed0874d6-aafb-43b5-9d54-4c2b604d2ffb)
+
+
+#### 2. Click Choose OS and choose Raspberry Pi OS.
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/91930d75-b305-4cdc-b540-508df123b528)
+
+
+#### 3. Click Choose SD card.
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/2c052c09-8975-4829-af2a-308798050224)
+
+
+#### 4. Select from the list the SD card you want to write to.
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/0fb6470f-48fb-46dc-9201-1414fea14713)
+
+
+#### 5. Click the setting icon and apply some configuration.
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/1169d438-1774-4ccb-9055-cba1d8355c7a)
+
+
+#### 6. Setting up some configuration
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/08604ed7-c067-4a14-82a9-a9c35c80ae58)
+
+
+#### 7. Now click the write button
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/8a892776-eac0-4bd1-8170-00e6088b6c6b)
+
+
+#### 8. Then click Yes button
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/ffc1016a-e11b-437d-8324-a1f1fbbaa866)
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/587be0c5-aa1b-4b1c-b515-a2cde28d1ceb)
+
+
+#### 7. Now it is verifying
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/f818bf35-8fb5-4082-9ad6-294cd810d5d2)
+
+
+
+# Manual Downloading and Installation Raspberry Pi OS
+Raspberry Pi Imager is free to install from the official Raspberry Pi website. It is under the download page section of the website. It's available for MacOS, Windows, Linux, and Ubuntu systems.
+
+Visit the Raspberry Pi Software section (https://www.raspberrypi.com/software/)
+
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/5b61e377-6ce1-4a52-8664-c3e930fae97c)
+
+
+### 1. Download the latest version of the Raspberry Pi Imager installer for your Operating System.
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/97c82ba0-9e77-4b6b-a153-52f59ae3b46b)
+
+
+### 2. Scroll down and click download options
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/da29479d-b8a9-4a3f-8fd2-06da49c3475b)
+
+
+### 3. Goto this link https://www.raspberrypi.com/software/operating-systems/, scroll down and download Raspbian buster OS
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/54f82ce5-a895-46f2-a83b-f64e65b54be2)
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/99694699-34fd-4534-8cb1-3d4e956a0c56)
+
+
+### 4. Extract the zip file, you will get img file for raspbian buster
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/0eb6a2fa-1442-4d35-966a-cd5d2adb3876)
+
+
+
+### 5. Now open the Raspberry pi Imager for manually OS image file writing.
+Steps to Follow to install pre-defined Images
+#### 1. Launch Raspberry Pi Imager.
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/2fcaedb0-15ed-424e-b6bd-574ed001ebf2)
+
+
+#### 2. Click Choose OS and choose custom Os image file.
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/4f3ddd6c-8adb-401a-aa1a-b187414b5b8c)
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/16cb9509-c198-43e9-bbbf-624b5e245146)
+
+
+#### 3. Click Choose SD card.
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/83227b83-23bc-44d1-8666-1e7e212b67ce)
+
+
+#### 4. Select from the list the SD card you want to write to.
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/96f2d170-a71e-411b-b14e-abe7f8ba51bb)
+
+
+#### 5. Click the setting icon and apply some configuration.
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/8eef065e-2ca7-4d76-91da-490a2f85c9d0)
+
+
+#### 6. Setting up some configuration
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/b83a91af-b6bf-4399-bf28-85f9c67c2e2f)
+
+
+#### 7. Now click write button
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/ececf500-2f19-4f54-a424-c0867256e5cb)
+
+
+#### 8. Then click yes button
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/40318d5c-bfa5-4eb9-b5a3-2dd44e02ebbb)
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/3ab92982-9785-4275-a4bd-88c111bcf22f)
+
+#### 9. Now it is verifying
+![image](https://github.com/MuhammadRaheelNaseem/Learn_Raspberry_Pi_Programming/assets/63813881/08795b0e-6b32-485e-b1af-dc49c6486600)
+
 
 # Now Insert your Memory card in Raspberry pi:
 ![download](https://user-images.githubusercontent.com/63813881/172046969-8021fdad-d183-4199-a658-a952487e8c20.png)
